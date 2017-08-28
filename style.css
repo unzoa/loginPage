@@ -1,0 +1,18 @@
+html,body{margin:0;padding: 0;height: 100%;}
+html {font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/}
+body {font-size: 1.4rem;/*1.4 × 10px = 14px */ }
+.aa{border:1px red solid;}
+.dn{display: none;}
+input,button{-webkit-appearance:none;}
+/*label*/
+	.input-label{ display: inline-block; }
+	@media (max-width: 767px){
+		.input-label{ display: none }
+	}
+
+/*jump page btn*/
+	.jump-con{overflow: hidden;}
+	.jump-con div{width: 50%;float: left;}
+
+/*in-vertify*/
+	.in-vertify{color: red;font-size: 1rem;font-style: italic;}

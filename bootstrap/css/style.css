@@ -1,0 +1,66 @@
+html,body{height: 100%;margin:0;padding: 0;}
+.aa{border:1px solid red!important;}
+.navbar {
+    margin-bottom: 0px!important;
+    border: 0px solid transparent!important;
+}
+.navbar {
+    border-radius: 0px!important;
+}
+/*===============nav背景色===================*/
+.navbar-default {
+    background-color: #3399f3!important;
+}
+/*===============li>a>.active====================*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff!important;
+    background-color: #999!important;
+}
+/*===============li>a====================*/
+.navbar-default .navbar-nav > li > a {
+    color: #fff!important;
+}
+/*===============dropdown主的背景色==============*/
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #999!important;
+}
+/*================dropdown>li>a=======================*/
+@media (max-width: 767px){
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    	color: #fff!important;
+	}
+}
+/*============brand===============*/
+.navbar-default .navbar-brand {
+    color: #fff!important;
+}
+/*==============brand:focus,hover===============*/
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff!important;
+    background-color: transparent;
+}
+/*===================menu========================*/
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent!important;
+}
+/*====================menu icon-bar==================*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff!important;
+}
+/*===================menu border=====================*/
+.navbar-default .navbar-toggle {
+    border-color: #fff!important;
+    border:0!important;
+}
+
+/*======================my_nav============*/
+.my_nav_padding{
+	padding-left: 6%!important;
+	padding-right: 6%!important
+}
+@media (max-width: 767px){
+	.my_nav_padding{
+		padding-left: 15px!important;
+		padding-right: 15px!important
+	}
+}
